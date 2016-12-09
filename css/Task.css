@@ -1,0 +1,24 @@
+.input {
+    margin: 50px;
+}
+
+.modal-content{
+    text-transform:uppercase; 
+    padding-top: 40px;
+    text-align: center;
+}
+.login-form
+ {
+    width: 25rem;
+    height: 18.75rem;
+    position: fixed;
+    top: 50%;
+    margin-top: -9.375rem;
+    left: 50%;
+    margin-left: -12.5rem;
+    background-color:bisque;
+    opacity: 1;
+    transform: scale(1);
+    transition: 0.5s;
+    border-radius: 10px;
+}

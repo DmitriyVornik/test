@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset = "utf-8" >
+    <title> Task from sweety </title>
+    <link rel="stylesheet" href="css/Task.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    
+    <link rel="stylesheet" href="Metro-UI-CSS-master/docs/css/metro.css">
+    <link rel="stylesheet" href="Metro-UI-CSS-master/docs/css/metro-icons.css">
+    <link rel="stylesheet" href="Metro-UI-CSS-master/docs/css/metro-responsive.css">
+    <script src="js/jquery-3.1.1.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="Metro-UI-CSS-master/docs/js/metro.js"></script>
+    <script src="js/PassGenJS.js"></script>
+    <script src="js/js.js"></script>
+          
+</head>
+
+<body class="bg-darkTeal">
+    
+    <div class="login-form padding20 block-shadow">
+    <div class="input-control text full-size" data-role="input" id="0">
+    <label for="user_login">User email:</label>
+    <input type="text" name="user_login" id="login" style="padding-right: 36px;"><br><br>
+    <button class="button helper-button clear" tabindex="-1" type="button"><span class="mif-cross"></span></button>
+        
+    <div class="input-control password full-size" data-role="input">
+    <label for="user_password">User password:</label>
+    <input type="password" name="user_password" id="password" onchange="" style="padding-right: 36px;">
+    <button class="button helper-button reveal" tabindex="-1" type="button"><span class="mif-looks"></span></button>
+    </div>
+    
+        <button type="subit" class="btn btn-success btn-xs" id="genPass" onclick="genPass()">Gen Pass</button>
+        <br><br>
+        <div><p id="incor"> </p>
+        <button type="submit" class="btn btn-primary " id="sub"  onclick="testPassAndLog(password.value, login.value);"> Sign In </button>
+    
+    
+ </div>       
+</div>
+</div>   
+    
+</body>
+
+</html>
